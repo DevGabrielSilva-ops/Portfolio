@@ -1,0 +1,280 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container{
+    display: grid; /* Define display como grid */
+    grid-auto-flow: column; /* Define que cada div dentro de container seja formada como coluna */
+    grid-auto-columns: 1fr; /* Define que cada coluna tenha largura igual ocupando o máximo de espaço */
+}
+
+#header{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+
+    
+    text-decoration-line: underline;
+    color: black;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#headerCta p{
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+    color: rgb(82, 81, 81);
+
+}
+
+#headerCta h1{
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 82px;
+
+    color: rgb(0, 0, 0);
+
+}
+
+#menu{
+    text-align: right;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 49px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#btnCta{
+    border-radius: 50px;
+    background: rgb(0, 89, 255);
+    
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+    color: white;
+    padding: 10px 25px 10px 25px;
+}
+
+#especialidades{
+    margin-top: 100px;
+}
+#esp-img{
+    margin-top: 100px;
+}
+#esp-img img {
+    width: 70px;
+    height: 70px;
+}
+
+#especialidades h2{
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+
+   
+    color: rgb(32, 30, 30);
+
+}
+
+#headerImg img{
+    width: 400px;
+    height: 380px;
+    border-radius: 35px;
+    margin-left: 100px;
+}
+
+h2.red{
+       
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+
+   
+    color: rgb(232, 67, 67);
+}
+
+h1.black{
+       
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: rgb(17, 13, 13);
+    margin-top: 0;
+}
+
+#services{
+    margin-top: 150px;
+    text-align: center;
+}
+
+#services p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+    color: rgb(82, 81, 81);
+}
+
+.textCenter{
+    text-align: center;
+    margin-top: 50px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+    color: rgb(82, 81, 81);
+}
+
+.textCenter i{
+     color: rgb(232, 67, 67);
+}
+
+.textCenter h3{
+    color: black;
+}
+
+#form{
+    margin-top: 90px;
+}
+
+#form-img img{
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+form input{
+    background-color: rgb(227, 228, 229);
+    border: 0 solid;
+    border-radius: 15px;
+    padding: 10px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+form button{
+    border-radius: 70px;
+    background: rgb(0, 89, 255);
+    border:0 ;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 13px;
+  
+    width: 150px;
+    text-align: center;
+    color: white;
+   padding: 10px;
+
+   margin-top: 15px;
+}
+
+#form p{
+    margin-top: 10px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+    color: rgb(82, 81, 81);
+}
+
+#form h1{
+      font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: rgb(17, 13, 13);
+    margin-top: 0;
+}
+
+#form h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: rgb(232, 67, 67);
+}
+
+#portfolioTitle{
+    margin-top: 150px;
+}
+.projetos{
+    margin-top: 15px;
+}
+.projetos img{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.projetos p{
+     margin-top: 10px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    margin-left: 25px;
+
+    color: rgb(0, 0, 0);
+}
