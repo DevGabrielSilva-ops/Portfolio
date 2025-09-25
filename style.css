@@ -258,11 +258,14 @@ form button{
 }
 .projetos{
     margin-top: 15px;
+    gap: 0;
+    justify-content: center;
+
 }
 .projetos img{
     width: 300px;
     height: 200px;
-    text-align: center;
+    text-align: center; 
     border-radius: 20px;
 }
 
@@ -277,4 +280,115 @@ form button{
     margin-left: 25px;
 
     color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 764px) {
+    .container{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    body{
+    margin-left: 5%;
+    margin-right: 5%;
+    }   
+   
+    #menu{
+        
+        text-align: start;
+        
+    }
+
+    #header{
+    
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+
+    #headerImg img{
+    margin: 10% 10% 0px 5%;
+    width: 90%;
+    height: auto;
+    }
+
+
+
+    #especialidades{
+        display: flex;
+        justify-content: center;
+        margin-top: 10% ;
+    }
+
+    #esp-img{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 20%;
+    }
+
+    #services{
+        margin-top: 25%;
+    }
+
+    #form-img img{
+    width:100%;
+    height: auto;
+    }
+
+    #form{
+        
+        justify-content: center;
+        
+        width: 100%;
+        text-align: center;
+    }
+
+    form input{
+        width: 150px;
+    }
+
+    #portfolioTitle{
+    margin-top: 30%;
+    text-align: center;
+    }
+
+    .projetos{
+    margin-top: 10%;
+    width: 100%;
+    justify-content: center;
+
+    }
+
+    .projetos img{
+        width: 80%;
+        margin: 0 10%;
+  
+    }
+
+    #headerCta{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+
+        margin-top: 10%;
+    }
+
+    #headerCta p{
+    
+    font-family: Poppins;
+    font-size: 14px;
+    
+    }
+
+    .projetos p{
+     
+        text-align: center;
+    }
+
+   
 }
