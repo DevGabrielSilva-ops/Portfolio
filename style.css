@@ -119,7 +119,7 @@ a {
 
 #headerImg img{
     width: 400px;
-    height: 380px;
+    height: auto;
     border-radius: 35px;
     margin-left: 100px;
 }
