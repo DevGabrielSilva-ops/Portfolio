@@ -80,7 +80,9 @@ a {
 
 #btnCta{
     border-radius: 50px;
+    border: none;
     background: rgb(0, 89, 255);
+    cursor: pointer;
     
     
     font-family: Poppins;
@@ -211,6 +213,7 @@ form button{
     font-family: Poppins;
     font-style: normal;
     font-size: 13px;
+    cursor: pointer;
   
     width: 150px;
     text-align: center;
@@ -280,6 +283,16 @@ form button{
     margin-left: 25px;
 
     color: rgb(0, 0, 0);
+}
+
+button:hover{
+    transform: translateY(-5px);
+    transition: 0.2s;
+}
+
+a:hover{
+    transform: translateY(-5px);
+    transition: 0.2s;
 }
 
 @media only screen and (max-width: 764px) {
